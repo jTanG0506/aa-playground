@@ -1,8 +1,12 @@
 {
   "name": "smart-contracts",
   "version": "1.0.0",
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.0.0"
+  },
   "devDependencies": {
     "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "@nomicfoundation/hardhat-verify": "^2.0.5",
     "hardhat": "^2.22.1"
   }
 }
