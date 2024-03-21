@@ -15,7 +15,7 @@ async function main() {
   const factoryData = getFactoryData(owner.address, 0n);
   console.log("Generated factoryData:", factoryData);
 
-  const senderAddress = getProxyWalletAddress(factoryData, publicClient);
+  const senderAddress = await getProxyWalletAddress(factoryData, publicClient);
   console.log("Calculated sender address:", senderAddress);
 }
 
